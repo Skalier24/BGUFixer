@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "BGUFixer",
+  "version": "1.0",
+  "description": "Ну вот исправить кодировку так сложно и долго. Для этого эта дичь и есть, больше никаких эльфиских слов в названии.",
+  "permissions": [
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://me.bgu.ru/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
